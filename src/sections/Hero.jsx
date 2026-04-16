@@ -37,7 +37,9 @@ function Hero() {
               🏀
             </motion.div>
 
-            <h2>SportsCare Coaching</h2>
+            <h2 onClick={()=>{
+              window.scrollTo()
+            }}>SportsCare Coaching</h2>
             <p>
              
               Organised by Sunil Natarajan former Kerala Sports Council and M.G University Coach from April 2nd Onwards ;
@@ -74,7 +76,9 @@ function Hero() {
             <p>The Game will be played on every Saturday on SportsCare ground.The winning team will be rewarded by SportsCare. </p>
             
 
-            <button className="secondary-btn">Explore Game →</button>
+            <button className="secondary-btn" onClick={()=>{
+              window.location.href="https://game.hitandrun.in/"
+            }}>Explore Game →</button>
           </motion.div>
 
         </div>

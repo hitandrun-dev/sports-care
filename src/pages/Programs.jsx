@@ -96,7 +96,7 @@ function Programs() {
       <div className="qr-glow"></div>
 
       <div className="qr-card">
-        <img src="/qr.png" alt="QR Code" />
+        <img src="/qr.jpeg" alt="QR Code" />
         <p>Scan to Join</p>
       </div>
     </motion.div>
